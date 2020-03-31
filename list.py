@@ -14,11 +14,6 @@ print(myList[1])
 print(myList[2])
 
 
-# Another method of printing List (List Constructor)
-Awsomelist=list(("Red","Green","Blue"))
-print(Awsomelist)
-
-
 #Now we learn how to append or add some list items after creating list
 # now we want to add yellow color in our list 
 print(myList.append("Yellow"))
@@ -28,5 +23,28 @@ print(myList.append("Yellow"))
 print(myList)
 
 
+#Now we learn how to reomve some list items after creating list
+# now we want to remove yellow color in our list 
+print(myList.remove("Yellow"))
 
 
+# Yellow is removed in myList
+print(myList)
+
+
+# For checking the lenght of list items
+print(len(myList))
+
+
+# For reversing the list items
+print(myList.reverse())
+print(myList)
+
+
+# Another method of printing List (List Constructor)
+Awsomelist=list(("Red","Green","Blue"))
+print(Awsomelist)
+
+
+# For removing or clear list in python
+print(Awsomelist.clear())
