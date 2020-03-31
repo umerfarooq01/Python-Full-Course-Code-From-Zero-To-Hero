@@ -3,4 +3,4 @@ x="Umer,Farooq"
 print(x)
 x.split(",")
 print(x.split(",")[0])
-print(x.split(",")[1])git 
+print(x.split(",")[1])
