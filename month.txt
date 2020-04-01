@@ -9,3 +9,4 @@ August $6000
 September $4500
 October $3500
 November $3750
+December $6000
